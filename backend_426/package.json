@@ -1,0 +1,35 @@
+{
+  "name": "426finalproject",
+  "version": "1.0.0",
+  "description": "final project for COMP426",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannytracy19/426finalproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines":{
+    "node": "12.18.3"
+  },
+  "bugs": {
+    "url": "https://github.com/dannytracy19/426finalproject/issues"
+  },
+  "homepage": "https://github.com/dannytracy19/426finalproject#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "browser-sync": "^2.26.13",
+    "bulma": "^0.9.1",
+    "cors": "^2.8.5",
+    "data-store": "^4.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "heroku": "^7.47.3",
+    "jquery": "^3.5.1"
+  }
+  
+}

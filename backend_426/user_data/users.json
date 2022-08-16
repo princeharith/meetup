@@ -1,0 +1,29 @@
+{
+  "0": {
+    "id": 0,
+    "email": "jimmy@gmail.com",
+    "password": "Booyah",
+    "preferences": []
+  },
+  "1": {
+    "id": 1,
+    "email": "hahah@yahoo.com",
+    "password": "test",
+    "preferences": [
+      "Pizza",
+      "FastFood"
+    ]
+  },
+  "2": {
+    "id": 2,
+    "email": "harith@live.unc.edu",
+    "password": "NikeAir976!",
+    "preferences": []
+  },
+  "3": {
+    "id": 3,
+    "email": "harith@live.unc.edu",
+    "password": "hello",
+    "preferences": []
+  }
+}
