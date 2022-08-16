@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="custom_style.css"/>
+   <link href='https://fonts.googleapis.com/css?family=Bangers&display=swap' rel="stylesheet">
+    <title>Login Page</title>
+    <script src="/node_modules/axios/dist/axios.js"></script>
+</head>
+<body>
+    <section class="section">
+        <div class="content">
+            <h1 class = "login-logo">MeetUp</h1><br>
+        
+            <form id="signup-form">
+                <div id = "labels">
+                    <label id="login-email">EMAIL:</label><br><br>
+                    <label id="login-password">PASSWORD:</label><br>
+                </div>
+                <div id = "inputs">
+                    <input class = "email-login email-input" type = "text" placeholder = "email@address.com"><br>
+                    <input class = "password-login" type = "password" id = "pwd" name = "pwd"><br>
+                </div>
+            </form>
+       
+   
+<!---
+<section class="section">
+    <div class="content">
+        <h1 class="title">Create your account and MeetUp Today!</h1>
+        <form>
+            <div class="field">
+                <label class="label">Please enter your e-mail:</label>
+                <div class="control">
+                    <input class="email-input" type="text" placeholder="johndoe1@gmail.com" name="username">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="pwd">Create a Password:</label>
+                <div class="control">
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+            </div>
+--> </div>
+
+            <div class="field" style = "text-align: center;">
+                <div class="control">
+                    <a class="login-back" href = "signuppage.html">Sign-Up</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <button class = "login-login" type="submit">LOGIN</button>
+                </div>
+            </div>
+        </form>
+        <span id="message"></span>
+    </div>
+</section>
+
+<!-- Links to JavaScript files below -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src='index.js'></script>
+<script src="node_modules/axios/dist/axios.js"></script>
+
+
+</body>
+</html>

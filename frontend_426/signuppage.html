@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="custom_style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Bangers&display=swap' rel="stylesheet">
+    <title>Sign-up Page</title>
+</head>
+<body>
+    <section class="section">
+        <div class="content">
+            <h1 class = "logo">MeetUp</h1><br>
+            <h1 id="title" class="title">Create your account and MeetUp Today!</h1>
+        
+            <form id="signup-form">
+                <div id = "labels">
+                    <label id ="email">EMAIL:</label><br><br>
+                    <label id="password">PASSWORD:</label><br><br>
+                </div>
+                <div id = "inputs">
+                    <input class="email-input" type = "text" placeholder = "email@address.com"><br>
+                    <input type = "password" id = "pwd" name = "pwd"><br>
+                </div>
+            </form>
+            <br>
+            <br>
+             
+   
+<!---
+<section class="section">
+    <div class="content">
+        <h1 class="title">Create your account and MeetUp Today!</h1>
+        <form>
+            <div class="field">
+                <label class="label">Please enter your e-mail:</label>
+                <div class="control">
+                    <input class="email-input" type="text" placeholder="johndoe1@gmail.com" name="username">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="pwd">Create a Password:</label>
+                <div class="control">
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+            </div>
+-->
+            <div id="div_checkboxes" style = "text-align: center;">
+            <label id = "pref" class = "label">Enter Your Meeting Preferences Below: </label>
+            <div  style = "display: inline-block; padding: 10px; font-size: 18px;" class="rows">
+                <div class="checkbox">
+                        <input class = "pref" type="checkbox" name = "food" value = "Restaurant"> Restaurant</option>
+                </div>
+            </div>
+            <div style = "display: inline-block; padding: 10px; font-size: 18px;" class="rows">
+                <div class="checkbox">
+                        <input class = "pref" type="checkbox" name = "food" value = "Mall"> Mall/Shopping Center</option>
+                </div>
+            </div>
+            <div style = "display: inline-block; padding: 10px; font-size: 18px;" class="rows">
+                <div class="checkbox">
+                        <input class = "pref" type="checkbox" name = "food" value = "Retail" > Retail Shop</option>
+                </div>
+            </div>
+            <div style = "display: inline-block; padding: 10px; font-size: 18px;" class="rows">
+                <div class="checkbox">
+                        <input class = "pref" type="checkbox" name = "food" value = "Recreation"> Recreation</option>
+                </div>
+            </div>
+            <div style = "display: inline-block; padding: 10px; font-size: 18px;" class="rows">
+                <div class="checkbox">
+                        <input class = "pref" type="checkbox" name = "food" value = "Movie"> Movie Theatre</option>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <!---
+        <div class="field">
+            <div class="control">
+                <a class="button is-dark" href="signuppage.html">Back</a>
+            </div>
+        </div>
+        <div class="field">
+            <div class="control">
+                <button type = "submit" class="prefsubmit button is-dark" href = "favfoodsignup.html">Submit</button>
+            </div>
+        </div>
+
+            
+
+            <div class="field">
+                <label class="label">Username</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="johndoe" name="username">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                    <input class="input" type="password" placeholder="password12345">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Repeat Password</label>
+                <div class="control">
+                    <input class="input" type="password" placeholder="password12345" name="password">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Address</label>
+                <div class="control">
+                    <input class="input" type="address" placeholder="123 Cherry Lane" name="address">
+                </div>
+            </div>
+            -->
+
+            <div class="field" style = "text-align: center;">
+                <div class="control">
+                    <a class="back-button" href="index.html">Back</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <a class = "signup-button" type="submit">Sign Up</a>
+                </div>
+            </div>
+        </form>
+        <span id="message-2"></span>
+    </div>
+</section>
+
+<!-- Links to JavaScript files below -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src='sign_up.js'></script>
+<script src="node_modules/axios/dist/axios.js"></script>
+
+
+</body>
+</html>

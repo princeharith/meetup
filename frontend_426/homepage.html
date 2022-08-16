@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="custom_style.css"/>
+    <link rel="stylesheet" type="text/css" href="./APIstyle.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Bangers&display=swap' rel="stylesheet">
+    <title>MeetUp</title>
+</head>
+<body>
+    <div id="welcome">
+    </div>
+    <button class = "button is-dark"id="logout">Logout
+    </button>
+
+<section class="section">
+    <div class="container">
+            <h1 class = "homepage-logo">MeetUp</h1><br>
+    </div>
+    <br>
+
+        <div class="tab">
+            <!-- tabs for recents, favorites, and friends-->
+            <button class="tablinks" onclick="openTab(event, 'Recents')">Recents</button> &nbsp&nbsp&nbsp&nbsp
+            <button class="tablinks" onclick="openTab(event, 'Favorites')">Favorites</button>
+            <button class="tablinks" onclick="openTab(event, 'Friends')">Friends</button>
+        </div>
+        <!-- Tab Contents-->
+        <div id="Recents" class="tabcontent">
+        
+          </div>
+          
+          <div id="Favorites" class="tabcontent">
+           
+          </div>
+          
+          <div id="Friends" class="tabcontent">
+            
+          </div>
+
+    </div>
+</section>
+
+
+    <div class="container" id="setup-meet">
+        <div class="content">
+            <br>
+            <br>
+            <div class="columns">
+                <div class="column-hi">
+                    <h1 class="title">Create a MeetUp!</h1>
+                    <h5 class="plsenter">please enter some information below</h5><br>
+                    <label class = "your-address">Your address:</label> 
+                    <br>
+                    <input id = "search1" class = "city1 your-address-box" type = "text" placeholder = "Enter address here...">
+                    <br><br>
+                    <label class = "friend-address">Your friend's address:</label>
+                    <br>
+                    <input id = "search2" class = "city2 friend-address-box" type = "text" placeholder = "Enter address here...">
+                    <br>
+                    <br>
+                    <br>
+                    <p class="other-options">Other options</p>
+                    <button class = "addfriend">Add a Friend</button>
+                    <button class = "addfav">Add a Favorite</button>
+                </div>
+                <div class="column">
+                    <h1 class="title">Make it Perfect</h1>
+                    <h5 class="submake-text">Select some of your preferences for this MeetUp:</h5><br>
+                    <label class = "pref-meet-place">Preferred Meeting Place:</label>
+                    <br><br>
+                    <label>
+                        <input type="radio" name="meetingplace" value="Restaurant">  Restaurant
+                    </label>
+                    <label>
+                        <input type="radio" name="meetingplace" value="Mall">  Mall/Shopping Center
+                    </label>
+                    <label>
+                        <input type="radio" name="meetingplace" value="Retail">  Retail Shop
+                    </label>
+                    <label>
+                        <input type="radio" name="meetingplace" value="Recreation">  Recreation
+                    </label>
+                    <label>
+                        <input type="radio" name="meetingplace" value="Movie">Theatre
+                    </label>
+                    <br>
+                    <br>
+                    <label class = "rating">Select Number of Stars:</label>
+                    <br><br>
+                    <label>
+                        <input type="radio" name="stars" value="1"/>  1
+                    </label>
+                    <label>
+                        <input type="radio" name="stars" value="2"/>  2
+                    </label>
+                    <label>
+                        <input type="radio" name="stars" value="3"/>  3
+                    </label>
+                    <label>
+                        <input type="radio" name="stars" value="4"/>  4
+                    </label>
+                    <label>
+                        <input type="radio" name="stars" value="5"/>  5
+                    </label>
+                    <br>
+                    <br>
+                    <label class = "price-point">Select Price Point:</label>
+                    <br><br>
+                    <label>
+                        <input type="radio" name="price" value="$"/>  $
+                    </label>
+                    <label>
+                        <input type="radio" name="price" value="$$"/>  $$
+                    </label>
+                    <label>
+                        <input type="radio" name="price" value="$$$"/>  $$$
+                    </label>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="meet-button" id="meetup">Let's Meet!</button>
+        
+                </div>
+</section>
+<script>
+ function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src='homepage.js'></script>
+<script src="node_modules/axios/dist/axios.js"></script>
+<!--3rd Part API links and ref-->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBonJqDqpoZ4ISXRDSfqChh_1a9T0902Gg&libraries=places&v=weekly"
+  defer
+></script>
+</body>
+</html>
+

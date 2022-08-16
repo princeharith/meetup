@@ -1,0 +1,499 @@
+/*
+This css file is here to add functionality and style elements that
+were needed. You do not need to edit this file or use it in any way.
+ */
+
+ html, body{
+  line-height: 1.7em;
+  color: black;
+  font-size: 13px;
+  background-color: #3b90e1;
+  background-image: url("https://mewallpaper.com/thumbnail/abstract/7945-blue-background-free-wallpaper-hq.jpg");
+}
+
+.login-login{
+border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+background-color: #00ACEE;
+}
+
+.addfav{
+  border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+background-color: #00ACEE;
+}
+
+.addfriend{
+  border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+background-color: #00ACEE;
+}
+
+h5.subtext{
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-size:20px;
+color:black;
+}
+
+.login-back{
+border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+background-color: #00ACEE;
+}
+
+#login-email{
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color:white;
+}
+
+#login-password{
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color:white;
+top: 100px;
+}
+
+#pwd{
+padding: 12px 50px;
+border-radius: 10px;
+text-align:center;
+}
+
+.email-input{
+padding: 12px 50px;
+border-radius: 10px;
+text-align: center;
+}
+
+#pref{
+color:white;
+font-size: 23px;
+}
+
+.checkbox{
+color:white;
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-weight: bold;
+}
+
+#password{
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: white;
+}
+
+#email{
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color:white;
+}
+
+h1.title{
+  color:white;
+  font-size: 45px;
+}
+
+h1.login-logo{
+left: -7px;
+top: 130px;
+text-align: center;
+position: relative;
+font-family: 'Bangers', cursive;
+color:white;
+z-index: 2; 
+font-size: 7em;
+letter-spacing: 15px;
+text-transform: uppercase;
+transform: rotate(-10deg);
+text-shadow: 1px 1px hsl(50, 50%, 45%), 
+2px 2px hsl(50, 50%, 40%),
+3px 3px hsl(50, 50%, 35%),
+4px 4px hsl(50, 50%, 34%),
+5px 5px hsl(50, 50%, 33%),
+6px 6px hsl(50, 50%, 32%),
+7px 7px hsl(50, 50%, 31%),
+8px 8px hsl(50, 50%, 30%),
+9px 9px hsl(50, 50%, 29%),
+10px 10px hsl(50, 50%, 28%),
+10px 10px 30px rgba(0,0,0,.7), 
+}
+
+h1.main-logo{
+position: relative;
+font-family: 'Bangers', cursive;
+color:white;
+z-index: 2; 
+font-size: 8em;
+letter-spacing: 15px;
+text-transform: uppercase;
+transform: rotate(-10deg);
+text-shadow: 1px 1px hsl(50, 50%, 45%), 
+2px 2px hsl(50, 50%, 40%),
+3px 3px hsl(50, 50%, 35%),
+4px 4px hsl(50, 50%, 34%),
+5px 5px hsl(50, 50%, 33%),
+6px 6px hsl(50, 50%, 32%),
+7px 7px hsl(50, 50%, 31%),
+8px 8px hsl(50, 50%, 30%),
+9px 9px hsl(50, 50%, 29%),
+10px 10px hsl(50, 50%, 28%),
+10px 10px 30px rgba(0,0,0,.7), 
+}
+
+.homepage-logo{
+float:left;
+position: relative;
+font-family: 'Bangers', cursive;
+color:white;
+z-index: 2; 
+font-size: 4em;
+letter-spacing: 15px;
+text-transform: uppercase;
+transform: rotate(-10deg);
+text-shadow: 1px 1px hsl(50, 50%, 45%), 
+2px 2px hsl(50, 50%, 40%),
+3px 3px hsl(50, 50%, 35%),
+4px 4px hsl(50, 50%, 34%),
+5px 5px hsl(50, 50%, 33%),
+6px 6px hsl(50, 50%, 32%),
+7px 7px hsl(50, 50%, 31%),
+8px 8px hsl(50, 50%, 30%),
+9px 9px hsl(50, 50%, 29%),
+10px 10px hsl(50, 50%, 28%),
+10px 10px 30px rgba(0,0,0,.7), 
+}
+
+h1.logo{
+top: -100px;
+position: relative;
+font-family: 'Bangers', cursive;
+color:white;
+z-index: 2; 
+font-size: 4em;
+letter-spacing: 15px;
+text-transform: uppercase;
+transform: rotate(-10deg);
+text-shadow: 1px 1px hsl(50, 50%, 45%), 
+2px 2px hsl(50, 50%, 40%),
+3px 3px hsl(50, 50%, 35%),
+4px 4px hsl(50, 50%, 34%),
+5px 5px hsl(50, 50%, 33%),
+6px 6px hsl(50, 50%, 32%),
+7px 7px hsl(50, 50%, 31%),
+8px 8px hsl(50, 50%, 30%),
+9px 9px hsl(50, 50%, 29%),
+10px 10px hsl(50, 50%, 28%),
+10px 10px 30px rgba(0,0,0,.7), 
+}
+
+form{
+font-size: 21px;
+}
+
+.signup-button{
+border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+background-color: #00ACEE;
+color: white;
+}
+
+.map-buttons{
+
+  border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+  background-color: #00ACEE;
+  color: white;
+
+}
+
+.back-button{
+border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+background-color: #00ACEE;
+color: white;
+}
+
+#title{
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-size: 35px;
+color: white;
+text-align:center;
+}
+
+
+p{
+font-size: 25px;
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
+
+#labels {
+height: 140px;
+width: 100px;
+float: left;
+}
+
+h5{
+color: black;
+}
+
+#control{
+text-align: center;
+}
+
+
+#inputs {
+height: 150px;
+width: 100px;
+float: left;
+}
+
+#signup-form {
+height: 250px;
+width: 330px;
+margin: 0px auto;
+position: relative;
+top: 100px;
+}
+
+div{
+color: black;
+}
+
+
+section {
+color:black;
+}
+
+.content.has-text-centered{
+color: black;
+}
+
+label {
+  color: white;
+  text-align: center;
+  font-size:13px;
+  font-weight:bold;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
+
+.friend-panel{
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight:bold;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
+
+.friend-address{
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  font-weight:bold;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
+
+.text-box{
+  padding: 12px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.add-button{
+  border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+background-color: #00ACEE;
+color: white;
+}
+
+input {
+margin-bottom: 10px;
+}
+
+hr{
+  background-color: #e6e6e4;
+}
+
+
+.title{
+  font-size: 100px;
+  text-align: center;
+  font-style: 2em! important;
+}
+
+.justify-center{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.is-family-secondary{
+  font-family: 'Shrikhand', cursive !important;
+  font-size: 6em !important;
+  font-weight: lighter !important;
+}
+
+
+h5.plsenter{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+
+.friend-address{
+  text-align: center;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+
+h5.submake-text{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.your-address{
+  text-align: center;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.other-options{
+  text-align: center;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.your-address-box{
+  padding: 12px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.friend-address-box{
+  padding: 12px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.column-hi{
+  text-align: center;
+  position: relative;
+  right: -200px;
+  top: 80px;
+}
+
+.meet-button{
+  border-radius: 100px;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+background-color: #00ACEE;
+}
+
+.pref-meet-place{
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.rating{
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.price-point{
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+#vertical-line{
+  width: 10px;
+  height: 20px;
+  color: white;
+}
+
+.columns{
+  column-gap: 400px;
+  position: relative;
+  left: -27px;
+}
+
+.column{
+  position: relative;
+  right: 50px;
+  top: 66px;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablinks{
+  color:white;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-weight: bold;
+}
+
+.tab{
+  float: right;
+  border: solid rgb(87, 87, 87);
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+input[type="radio"] {
+  margin-left:10px;
+}
